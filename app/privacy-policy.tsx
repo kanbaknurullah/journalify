@@ -26,18 +26,18 @@ export default function TermsAndConditions() {
         <ScrollView contentContainerStyle={styles.container}>
           <ThemedView style={styles.contentContainer}>
             <ThemedText style={styles.paragraph}>
-              This Privacy Policy describes how Jounalify ("we," "us," or "our")
-              collects, uses, and shares your personal information when you use
-              our mobile application ("App"). By using Jounalify, you agree to
-              the terms of this Privacy Policy.
+              This Privacy Policy describes how Journalify ("we," "us," or
+              "our") collects, uses, and shares your personal information when
+              you use our mobile application ("App"). By using Journalify, you
+              agree to the terms of this Privacy Policy.
             </ThemedText>
             <ThemedText style={styles.subHeading}>
               Information We Collect
             </ThemedText>
             <ThemedText style={styles.paragraph}>
-              a. Information You Provide: When you use Jounalify, we may collect
-              information that you directly provide, such as your name, email
-              address, and other contact information.
+              a. Information You Provide: When you use Journalify, we may
+              collect information that you directly provide, such as your name,
+              email address, and other contact information.
             </ThemedText>
             <ThemedText style={styles.paragraph}>
               b. Automatically Collected Information: We may use third-party
