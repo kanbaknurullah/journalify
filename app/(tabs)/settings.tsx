@@ -12,6 +12,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
 import { Ionicons, MaterialCommunityIcons, Octicons } from "@expo/vector-icons";
 import * as Application from "expo-application";
+import React from "react";
 
 export default function TabTwoScreen() {
   const router = useRouter();
@@ -44,7 +45,7 @@ export default function TabTwoScreen() {
     }
   };
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView edges={["top", "left", "right"]} style={{ flex: 1 }}>
       <ThemedView style={{ flex: 1 }}>
         <ScrollView contentContainerStyle={styles.container}>
           <ThemedText type="title">Settings</ThemedText>

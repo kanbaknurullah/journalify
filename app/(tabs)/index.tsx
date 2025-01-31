@@ -14,6 +14,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useCallback, useState } from "react";
 import { Swipeable } from "react-native-gesture-handler";
 import { Ionicons, SimpleLineIcons } from "@expo/vector-icons";
+import React from "react";
 
 export type Journal = {
   id: number;
@@ -146,7 +147,7 @@ export default function HomeScreen() {
     );
   };
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView edges={["top", "left", "right"]} style={{ flex: 1 }}>
       <ThemedView style={{ flex: 1 }}>
         <ThemedView style={{ flex: 1 }}>
           <ThemedView style={styles.titleContainer}>
